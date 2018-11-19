@@ -1,0 +1,46 @@
+
+h2 span{color: #26a65b;}
+
+.box:hover{
+  border: 1px solid #26a65b !important;
+  box-shadow: 0 0 50px #f1f1f1;
+  transition: .5s;
+}
+
+h4 {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1.5em;
+}
+
+.price ul {
+    line-height: 2.2em;
+    padding-left: 1em !important;
+    padding-right: 0 !important;
+}
+.price ul li{
+  font-size: 1em;
+}
+.price ul li::before{
+  font-family: fontawesome;
+  content: "\f00c";
+  color: #26a65b;
+  font-weight: 400;
+  margin-right: 0.6em;
+}
+.price ul li.cross::before {
+  font-family: fontawesome;
+  content:"\f00d";
+  color: red;
+}
+.box button{
+  padding: .5em 2em;
+  border-radius: 50em;
+  border: 1px solid #26a65b !important;
+}
+.box button:hover {
+  background-color: #26a65b;
+  color: #fff;
+  text-decoration: none;
+  transition: .5s;
+}

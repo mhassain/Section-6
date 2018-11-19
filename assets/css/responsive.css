@@ -1,0 +1,16 @@
+
+@media (max-width:375px) {
+  h2 {font-size: 1.5em;}
+  p{font-size: 1em !important}
+  h4, h3{font-size: 1.3em !important;}
+  .box{margin: -1em 1.5em;}
+  .price{padding: 0 1.5em}
+  .price ul li{font-size: 1em;}
+
+}/*media 375px*/
+
+@media ( min-width:376px and max-width:768px){
+  .price ul{padding-left: 2em !important}
+  .price ul li{font-size: 1em;}
+
+}/*@media 768px*/
